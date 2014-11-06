@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="winson.lab1_android.MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/stat_notify_sync"
+        android:onClick="onClick" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="406dp" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="114dp"
+            android:layout_height="408dp"
+            android:layout_gravity="right|bottom"
+            android:background="#ffde00ff" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="206dp"
+            android:layout_height="111dp"
+            android:layout_gravity="left|top"
+            android:background="@string/_ff97ff93"
+            android:contentDescription="@string/_1"
+            android:longClickable="true"
+            android:measureAllChildren="false"
+            tools:ignore="HardcodedText" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="205dp"
+            android:layout_height="200dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="#ff2200ff" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout4"
+            android:layout_width="314dp"
+            android:layout_height="109dp"
+            android:layout_gravity="right|bottom"
+            android:background="#ffff0020" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout5"
+            android:layout_width="116dp"
+            android:layout_height="200dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="#ffffde00" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout6"
+            android:layout_width="116dp"
+            android:layout_height="196dp"
+            android:layout_gravity="left|bottom"
+            android:background="#ff7ff1ff" />
+    </FrameLayout>
+
+</LinearLayout>
